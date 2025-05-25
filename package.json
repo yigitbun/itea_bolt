@@ -4,8 +4,9 @@
   "description": "A powerful sentiment analysis platform for hospital reviews",
   "main": "index.js",
   "scripts": {
-    "build": "python -m pip install -r requirements.txt",
-    "start": "python main.py"
+    "build": "python3 -m pip install -r requirements.txt",
+    "prestart": "npm run build",
+    "start": "python3 main.py"
   },
   "keywords": [
     "sentiment-analysis",
