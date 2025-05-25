@@ -1,0 +1,18 @@
+{
+  "name": "itea-insight-sentiment-hub",
+  "version": "1.0.0",
+  "description": "A powerful sentiment analysis platform for hospital reviews",
+  "main": "index.js",
+  "scripts": {
+    "build": "python -m pip install -r requirements.txt",
+    "start": "python main.py"
+  },
+  "keywords": [
+    "sentiment-analysis",
+    "hospital-reviews",
+    "flask",
+    "python"
+  ],
+  "author": "Team ITea",
+  "license": "MIT"
+}
